@@ -1,6 +1,10 @@
 [build]
   publish = "public"
   command = "yarn build"
+  from = "/webar/*"
+  to = "https://atsuhan-webar.netlify.app/:splat"
+  status = 200
+  force = true
 
 [build.environment]
   YARN_VERSION = "1.22.0"
