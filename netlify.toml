@@ -1,6 +1,8 @@
 [build]
   publish = "public"
   command = "yarn build"
+
+[[redirects]]
   from = "/webar/*"
   to = "https://atsuhan-webar.netlify.app/:splat"
   status = 200
