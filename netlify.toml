@@ -4,7 +4,7 @@
 
 [[redirects]]
   from = "/webar/*"
-  to = "https://atsuhan-webar.netlify.app/:splat"
+  to = "https://atsuhan-webar.netlify.app/webar/:splat"
   status = 200
   force = true
 
